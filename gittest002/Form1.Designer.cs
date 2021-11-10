@@ -35,29 +35,32 @@ namespace gittest002
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(171, 130);
+            this.button1.Location = new System.Drawing.Point(220, 173);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(214, 193);
+            this.button1.Size = new System.Drawing.Size(275, 257);
             this.button1.TabIndex = 0;
-            this.button1.Text = "깃";
+            this.button1.Text = "깃허브";
             this.button1.UseVisualStyleBackColor = true;
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(391, 130);
+            this.button2.Location = new System.Drawing.Point(503, 173);
+            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(249, 193);
+            this.button2.Size = new System.Drawing.Size(320, 257);
             this.button2.TabIndex = 1;
             this.button2.Text = "테스트";
             this.button2.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1029, 600);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
